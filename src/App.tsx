@@ -9,8 +9,8 @@ function App(): JSX.Element {
 	return (
 		<div className=''>
 			<Routes>
-				<Route path='/login' element={<Login />} />
-				<Route path='/' element={<Map />} />
+				<Route path='/' element={<Login />} />
+				<Route path='/map' element={<Map />} />
 			</Routes>
 		</div>
 	);
